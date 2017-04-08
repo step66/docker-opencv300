@@ -1,7 +1,7 @@
 from	ubuntu:16.04
 
-sudo add-apt-repository ppa:jonathonf/ffmpeg-3
-sudo apt update && sudo apt install ffmpeg libav-tools x264 x265
+run add-apt-repository ppa:jonathonf/ffmpeg-3
+run apt update && sudo apt install ffmpeg libav-tools x264 x265
 
 run	apt-get update
 run	apt-get install -y -q wget curl
